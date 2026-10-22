@@ -1,0 +1,36 @@
+diff --git a/Standalone2.0/Steamworks.NET.Standard.csproj b/Standalone2.0/Steamworks.NET.Standard.csproj
+index 7f7eb5a..64f38f3 100644
+--- a/Standalone2.0/Steamworks.NET.Standard.csproj
++++ b/Standalone2.0/Steamworks.NET.Standard.csproj
+@@ -4,9 +4,11 @@
+ 		<TargetFramework>netstandard2.1</TargetFramework>
+ 		<RootNamespace>Steamworks</RootNamespace>
+ 		<AssemblyName>Steamworks.NET</AssemblyName>
++		<AssemblyVersion>2024.8.0.0</AssemblyVersion>
++		<FileVersion>2024.8.0.0</FileVersion>
+ 		<Platforms>x64;x86;arm64</Platforms>
+ 		<Configurations>Windows;OSX-Linux</Configurations>
+-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
++		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+ 		<RepositoryType>git</RepositoryType>
+ 	</PropertyGroup>
+ 
+diff --git a/Standalone2.0/Steamworks.NET.nuspec b/Standalone2.0/Steamworks.NET.nuspec
+index a9af3b5..a43802e 100644
+--- a/Standalone2.0/Steamworks.NET.nuspec
++++ b/Standalone2.0/Steamworks.NET.nuspec
+@@ -2,12 +2,12 @@
+ <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+ 	<metadata>
+ 		<id>Steamworks.NET</id>
+-		<version>15.0.1</version>
++		<version>2024.8.0</version>
+ 		<description>Steamworks.NET</description>
+ 		<authors>rileylabrecque</authors>
+ 		<license type="expression">MIT</license>
+ 		<projectUrl>https://github.com/rlabrecque/Steamworks.NET</projectUrl>
+-		<repository type="git" url="https://github.com/rlabrecque/Steamworks.NET.git" commit="15.0.1"/>
++		<repository type="git" url="https://github.com/rlabrecque/Steamworks.NET.git" commit="2024.8.0"/>
+ 		<dependencies>
+ 			<group targetFramework="netstandard2.1">
+ 			</group>

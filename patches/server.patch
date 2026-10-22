@@ -1,0 +1,21 @@
+--- a/Server.deps.json	2026-10-22 16:07:47
++++ b/Server.deps.json	2026-10-22 16:07:32
+@@ -841,6 +841,18 @@
+           }
+         },
+         "runtimeTargets": {
++          "runtimes/linux-arm64/lib/netstandard2.1/Steamworks.NET.dll": {
++            "rid": "linux-arm64",
++            "assetType": "runtime",
++            "assemblyVersion": "2024.8.0.0",
++            "fileVersion": "2024.8.0.0"
++          },
++          "runtimes/osx-arm64/lib/netstandard2.1/Steamworks.NET.dll": {
++            "rid": "osx-arm64",
++            "assetType": "runtime",
++            "assemblyVersion": "2024.8.0.0",
++            "fileVersion": "2024.8.0.0"
++          },
+           "runtimes/linux-x64/lib/netstandard2.1/Steamworks.NET.dll": {
+             "rid": "linux-x64",
+             "assetType": "runtime",
